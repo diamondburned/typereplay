@@ -7,12 +7,12 @@ A small program that parses an input format to replay keyboard commands.
 ### Linux
 
 - Robotgo dependencies
-	- Whatever Nix defines the build inputs for `st` is (but not all, I'm just
-		lazy)
+	- `libxkbcommon`
+	- `libpng`
 	- `with xlibs`
+		- `libX11`
 		- `libXi`
 		- `libXtst`
-		- `libxkbcommon`
 
 ## Documentation
 
