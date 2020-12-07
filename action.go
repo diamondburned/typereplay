@@ -113,6 +113,10 @@ func ParseInput(input io.Reader) (*ActionTape, error) {
 			text := []rune(string(argument))
 			actions = append(actions, TypeAction{Text: text})
 
+		case "puts":
+			text := []rune(string(argument))
+			actions = append(actions, PutsAction{Text: text})
+
 		default:
 			return nil, fmt.Errorf("unknown command %q", command)
 		}

@@ -7,7 +7,8 @@ A small program that parses an input format to replay keyboard commands.
 ### Linux
 
 - Robotgo dependencies
-	- Whatever Nix defines the build inputs for `st` is
+	- Whatever Nix defines the build inputs for `st` is (but not all, I'm just
+		lazy)
 	- `with xlibs`
 		- `libXi`
 		- `libXtst`
